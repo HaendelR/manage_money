@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1785228397651,
+      "tag": "0000_omniscient_phil_sheldon",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1785228453323,
+      "tag": "0001_glorious_shiver_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1785233886356,
+      "tag": "0002_conscious_luminals",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1785238569756,
+      "tag": "0003_magical_mandrill",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1785240409556,
+      "tag": "0004_silky_epoch",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1785243175045,
+      "tag": "0005_rainy_gressill",
+      "breakpoints": true
+    }
+  ]
+}
