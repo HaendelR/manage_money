@@ -1,132 +1,48 @@
-# =====================================
 # Dependencies
-# =====================================
-
 node_modules/
 .pnpm-store/
-.pnpm-debug.log
 
-
-# =====================================
-# Environment variables
-# =====================================
-
+# Environment
 .env
 .env.*
 !.env.example
 
-
-# =====================================
-# Build outputs
-# =====================================
-
+# Build
 dist/
 build/
-out/
 .next/
+out/
 
-
-# =====================================
 # Logs
-# =====================================
-
-logs/
 *.log
-npm-debug.log*
-pnpm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
-
-# =====================================
-# TypeScript
-# =====================================
-
-*.tsbuildinfo
-
-
-# =====================================
-# Testing / Coverage
-# =====================================
-
+# Coverage
 coverage/
-.nyc_output/
 
+# Cache
+.cache/
+.turbo/
 
-# =====================================
-# Next.js (Web)
-# =====================================
-
-apps/web/.next/
-apps/web/out/
-
-
-# =====================================
-# React Native / Expo (Mobile)
-# =====================================
-
-.expo/
-.expo-shared/
-
-apps/mobile/.expo/
-apps/mobile/android/.gradle/
-apps/mobile/android/build/
-apps/mobile/ios/build/
-
-*.keystore
-*.mobileprovision
-*.ipa
-*.apk
-
-
-# =====================================
-# Drizzle / Database
-# =====================================
-
-# Keep migration files tracked
-# Ignore only generated local database files
-
-*.db
-*.sqlite
-
-
-# =====================================
-# Docker
-# =====================================
-
-docker-compose.override.yml
-
-
-# =====================================
-# IDE / Editors
-# =====================================
-
-.vscode/
-.idea/
-
-*.swp
-*.swo
-
-
-# =====================================
-# OS files
-# =====================================
-
+# OS
 .DS_Store
 Thumbs.db
 
+# IDE
+.vscode/
+.idea/
 
-# =====================================
-# Temporary files
-# =====================================
+# Database
+*.sqlite
+*.db
 
-tmp/
-temp/
-.cache/
+# Mobile
+apps/mobile/android/.gradle/
+apps/mobile/android/app/build/
+apps/mobile/ios/Pods/
 
+# Expo
+.expo/
 
-# =====================================
-# Environment local files
-# =====================================
-
-*.local
+# Secrets
+*.pem
+*.key
