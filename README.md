@@ -125,4 +125,4 @@ L'objectif est de construire une application complète permettant de gérer ses 
 
 ---
 
-**Projet personnel — Henintsoa Haendel Rafaralahy**
+**Projet personnel**
